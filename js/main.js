@@ -1,6 +1,3 @@
-// =============================================
-// VIDEO DATA — All projects from Enlaces.txt
-// =============================================
 const projects = [
     // === PRODUCCIÓN PROPIA (Grabé + Edité + Produje) ===
     { id: 'ILr6aVEausI', title: 'Producción Audiovisual Completa', role: 'Grabación, edición y producción', category: 'produccion', platform: 'youtube' },
@@ -41,9 +38,6 @@ const projects = [
     { url: 'https://www.instagram.com/p/DRXynKYiEXt/', img: '1.jpg', id: 'DRXynKYiEXt', title: 'Publicación @rc_espana', role: 'Contenido para RRSS', category: 'rrss', platform: 'instagram' }
 ];
 
-// =============================================
-// DOM READY
-// =============================================
 document.addEventListener('DOMContentLoaded', () => {
     renderVideoGrid();
     initFilters();
@@ -51,9 +45,6 @@ document.addEventListener('DOMContentLoaded', () => {
     initNavbar();
 });
 
-// =============================================
-// RENDER VIDEO GRID
-// =============================================
 function renderVideoGrid() {
     const grid = document.getElementById('video-grid');
     if (!grid) return;
@@ -86,16 +77,12 @@ function renderVideoGrid() {
     }).join('');
 }
 
-// =============================================
-// FILTER SYSTEM
-// =============================================
 function initFilters() {
     const buttons = document.querySelectorAll('.filter-btn');
     const cards = () => document.querySelectorAll('.video-card');
 
     buttons.forEach(btn => {
         btn.addEventListener('click', () => {
-            // Update active state
             buttons.forEach(b => b.classList.remove('active'));
             btn.classList.add('active');
 
@@ -112,9 +99,6 @@ function initFilters() {
     });
 }
 
-// =============================================
-// VIDEO MODAL (Lightbox)
-// =============================================
 function initModal() {
     const overlay = document.getElementById('modal-overlay');
     const content = document.getElementById('modal-content');
@@ -122,7 +106,6 @@ function initModal() {
 
     if (!overlay) return;
 
-    // Open modal on card click
     document.addEventListener('click', (e) => {
         const card = e.target.closest('.video-card');
         if (!card) return;
@@ -141,7 +124,6 @@ function initModal() {
         }
     });
 
-    // Close modal
     function closeModal() {
         overlay.classList.remove('active');
         content.innerHTML = '';
@@ -157,26 +139,20 @@ function initModal() {
     });
 }
 
-// =============================================
-// NAVBAR SCROLL EFFECT & MOBILE MENU
-// =============================================
 function initNavbar() {
     const navbar = document.querySelector('.navbar');
     const toggle = document.querySelector('.nav-toggle');
     const links = document.querySelector('.nav-links');
 
-    // Scroll effect
     window.addEventListener('scroll', () => {
         navbar.classList.toggle('scrolled', window.scrollY > 50);
     });
 
-    // Mobile menu toggle
     if (toggle && links) {
         toggle.addEventListener('click', () => {
             links.classList.toggle('open');
         });
 
-        // Close mobile menu on link click
         links.querySelectorAll('a').forEach(link => {
             link.addEventListener('click', () => {
                 links.classList.remove('open');
