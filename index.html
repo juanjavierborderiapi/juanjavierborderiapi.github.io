@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juan Javier Bordería Pi — Portfolio Audiovisual</title>
+    <meta name="description" content="Portfolio audiovisual de Juan Javier Bordería Pi. Periodista, Comunicador Audiovisual y Editor. Producción de vídeo, edición, locución y proyectos transmedia.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<nav class="navbar">
+    <div class="container">
+        <a href="#" class="nav-logo">J<span>.</span>Bordería</a>
+        <button class="nav-toggle" aria-label="Abrir menú">☰</button>
+        <ul class="nav-links">
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#proyecto">Proyecto Estrella</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+        </ul>
+    </div>
+</nav>
+
+<section class="hero" id="inicio">
+    <div class="container">
+        <div class="hero-content">
+            <p class="hero-greeting">Portfolio Audiovisual</p>
+            <h1 class="hero-name">Juan Javier<br>Bordería Pi</h1>
+            <p class="hero-title">Periodista · Comunicador Audiovisual · Editor</p>
+            <p class="hero-bio">
+                Producción audiovisual end-to-end para organizaciones reales: desde la grabación y edición en Premiere Pro hasta la locución profesional y la publicación multiplataforma en YouTube e Instagram.
+            </p>
+            <div class="hero-ctas">
+                <a href="#portfolio" class="btn btn-primary">▶ Ver Trabajos</a>
+                <a href="assets/docs/CV_Juan_Borderia_2026.pdf" class="btn btn-outline" target="_blank">📄 Descargar CV</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="portfolio">
+    <div class="container">
+        <div class="section-header">
+            <p class="section-label">Portfolio</p>
+            <h2 class="section-title">Mis Trabajos Audiovisuales</h2>
+            <p class="section-subtitle">Cada pieza está categorizada según mi rol en la producción.</p>
+        </div>
+        <div class="filter-bar">
+            <button class="filter-btn active" data-filter="todos">Todos</button>
+            <button class="filter-btn" data-filter="produccion">🎬 Producción Propia</button>
+            <button class="filter-btn" data-filter="edicion">✂️ Edición</button>
+            <button class="filter-btn" data-filter="locucion">🎤 Locución</button>
+            <button class="filter-btn" data-filter="rrss">📱 RRSS</button>
+        </div>
+        <div class="video-grid" id="video-grid"></div>
+    </div>
+</section>
+
+<section id="proyecto">
+    <div class="container">
+        <div class="section-header">
+            <p class="section-label">Proyecto Estrella</p>
+            <h2 class="section-title">La Capital del Arte</h2>
+            <p class="section-subtitle">Proyecto transmedia del que soy cámara y montador principal.</p>
+        </div>
+        <div class="featured-project">
+            <div class="featured-text">
+                <span class="featured-tag">Transmedia · 2025–2026</span>
+                <h3>Cámara, Montaje y Producción Técnica</h3>
+                <p>
+                    Un ecosistema de contenido multiplataforma sobre el mundo del arte difundido en YouTube, Spotify, Instagram y TikTok. He liderado la producción técnica integral: operador de cámara, montaje de vídeo y podcast, y adaptación nativa de formatos para cada plataforma.
+                </p>
+                <div class="featured-links">
+                    <a href="https://www.youtube.com/@LaCapitaldelArte" target="_blank" class="featured-link">▶ YouTube</a>
+                    <a href="https://open.spotify.com/show/0pJZm4Nxr27bovKG4nvPPd" target="_blank" class="featured-link">🎧 Spotify</a>
+                    <a href="https://instagram.com/lacapitaldelarte" target="_blank" class="featured-link">📷 Instagram</a>
+                    <a href="https://www.tiktok.com/@lacapitaldelarte_" target="_blank" class="featured-link">🎵 TikTok</a>
+                </div>
+            </div>
+            <div class="featured-visual">
+                <img src="https://img.youtube.com/vi/ILr6aVEausI/hqdefault.jpg" alt="La Capital del Arte - Vídeo 1">
+                <img src="https://img.youtube.com/vi/N5Byr2mOn-g/hqdefault.jpg" alt="La Capital del Arte - Vídeo 2">
+                <img src="https://img.youtube.com/vi/lZiSt-EwxYI/hqdefault.jpg" alt="La Capital del Arte - Vídeo 3">
+                <img src="https://img.youtube.com/vi/D3cMDm1j9wY/hqdefault.jpg" alt="La Capital del Arte - Vídeo 4">
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="contacto">
+    <div class="container">
+        <div class="section-header">
+            <p class="section-label">Contacto</p>
+            <h2 class="section-title">¿Hablamos?</h2>
+        </div>
+        <div class="contact-grid">
+            <a href="mailto:jborderiapi@gmail.com" class="contact-card">
+                <span class="icon">✉️</span>
+                <div>
+                    <div class="label">Email</div>
+                    <div class="value">jborderiapi@gmail.com</div>
+                </div>
+            </a>
+            <a href="https://www.linkedin.com/in/juan-javier-border%C3%ADa-pi-/" target="_blank" class="contact-card">
+                <span class="icon">🔗</span>
+                <div>
+                    <div class="label">LinkedIn</div>
+                    <div class="value">Juan Javier Bordería Pi</div>
+                </div>
+            </a>
+            <a href="https://www.instagram.com/juanborderiapi/" target="_blank" class="contact-card">
+                <span class="icon">📷</span>
+                <div>
+                    <div class="label">Instagram</div>
+                    <div class="value">@juanborderiapi</div>
+                </div>
+            </a>
+        </div>
+    </div>
+</section>
+
+<footer class="footer">
+    <div class="container">
+        <p>© 2026 Juan Javier Bordería Pi — Periodista & Comunicador Audiovisual</p>
+    </div>
+</footer>
+
+<div class="modal-overlay" id="modal-overlay">
+    <button class="modal-close" id="modal-close">✕</button>
+    <div class="modal-content" id="modal-content"></div>
+</div>
+
+<script src="js/main.js"></script>
+</body>
+</html>
