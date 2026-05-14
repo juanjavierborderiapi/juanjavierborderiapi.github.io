@@ -30,15 +30,15 @@ const projects = [
     { id: 'vMPbj9NqJ4k', title: 'Vídeo Institucional RC', role: 'Locución y voz en off', category: 'locucion', platform: 'youtube' },
 
     // === INSTAGRAM / RRSS ===
-    { url: 'https://www.instagram.com/p/DRXynKYiEXt/', img: '1.jpg', id: 'DRXynKYiEXt', title: 'Publicación @rc_espana', role: 'Contenido para RRSS', category: 'rrss', platform: 'instagram' },
-    { url: 'https://www.instagram.com/p/DVDaXBBCCZM/?img_index=5', img: '2.jpg', id: 'DVDaXBBCCZM', title: 'Publicación @rc_espana', role: 'Contenido para RRSS', category: 'rrss', platform: 'instagram' },
-    { url: 'https://www.instagram.com/p/DU5IPfUiF59/?img_index=3', img: '3.jpg', id: 'DU5IPfUiF59', title: 'Publicación @rc_espana', role: 'Contenido para RRSS', category: 'rrss', platform: 'instagram' },
-    { url: 'https://www.instagram.com/p/DUndxKsCGaF/', img: '4.jpg', id: 'DUndxKsCGaF', title: 'Publicación @rc_espana', role: 'Contenido para RRSS', category: 'rrss', platform: 'instagram' },
-    { url: 'https://www.instagram.com/p/DWEK4PoCMMD/', img: '5.jpg', id: 'DWEK4PoCMMD', title: 'Publicación @rc_espana', role: 'Contenido para RRSS', category: 'rrss', platform: 'instagram' },
-    { url: 'https://www.instagram.com/p/DWCDF24iN9v/', img: '6.jpg', id: 'DWCDF24iN9v', title: 'Publicación @rc_espana', role: 'Contenido para RRSS', category: 'rrss', platform: 'instagram' },
-    { url: 'https://www.instagram.com/p/DV5lGVZiHgW/?img_index=5', img: '7.jpg', id: 'DV5lGVZiHgW', title: 'Publicación @rc_espana', role: 'Contenido para RRSS', category: 'rrss', platform: 'instagram' },
+    { url: 'https://www.instagram.com/p/DXwwzqcoBd5/', img: '1.jpg', id: 'DXwwzqcoBd5', title: 'Publicación @rc_espana', role: 'Contenido para RRSS', category: 'rrss', platform: 'instagram' },
+    { url: 'https://www.instagram.com/p/DV5lGVZiHgW/?img_index=5', img: '2.jpg', id: 'DV5lGVZiHgW', title: 'Publicación @rc_espana', role: 'Contenido para RRSS', category: 'rrss', platform: 'instagram' },
+    { url: 'https://www.instagram.com/p/DWCDF24iN9v/', img: '3.jpg', id: 'DWCDF24iN9v', title: 'Publicación @rc_espana', role: 'Contenido para RRSS', category: 'rrss', platform: 'instagram' },
+    { url: 'https://www.instagram.com/p/DWEK4PoCMMD/', img: '4.jpg', id: 'DWEK4PoCMMD', title: 'Publicación @rc_espana', role: 'Contenido para RRSS', category: 'rrss', platform: 'instagram' },
+    { url: 'https://www.instagram.com/p/DVDaXBBCCZM/?img_index=5', img: '5.jpg', id: 'DVDaXBBCCZM', title: 'Publicación @rc_espana', role: 'Contenido para RRSS', category: 'rrss', platform: 'instagram' },
+    { url: 'https://www.instagram.com/p/DU5IPfUiF59/?img_index=3', img: '6.jpg', id: 'DU5IPfUiF59', title: 'Publicación @rc_espana', role: 'Contenido para RRSS', category: 'rrss', platform: 'instagram' },
+    { url: 'https://www.instagram.com/p/DUndxKsCGaF/', img: '7.jpg', id: 'DUndxKsCGaF', title: 'Publicación @rc_espana', role: 'Contenido para RRSS', category: 'rrss', platform: 'instagram' },
     { url: 'https://www.instagram.com/p/DUS9IsmiMfx/', img: '8.jpg', id: 'DUS9IsmiMfx', title: 'Publicación @rc_espana', role: 'Contenido para RRSS', category: 'rrss', platform: 'instagram' },
-    { url: 'https://www.instagram.com/p/DXwwzqcoBd5/', img: '9.jpg', id: 'DXwwzqcoBd5', title: 'Publicación @rc_espana', role: 'Contenido para RRSS', category: 'rrss', platform: 'instagram' }
+    { url: 'https://www.instagram.com/p/DRXynKYiEXt/', img: '9.jpg', id: 'DRXynKYiEXt', title: 'Publicación @rc_espana', role: 'Contenido para RRSS', category: 'rrss', platform: 'instagram' }
 ];
 
 // =============================================
