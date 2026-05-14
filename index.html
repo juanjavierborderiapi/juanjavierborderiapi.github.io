@@ -12,6 +12,9 @@
 </head>
 <body>
 
+<!-- =============================================
+     NAVBAR
+     ============================================= -->
 <nav class="navbar">
     <div class="container">
         <a href="#" class="nav-logo">J<span>.</span>Bordería</a>
@@ -24,6 +27,9 @@
     </div>
 </nav>
 
+<!-- =============================================
+     HERO
+     ============================================= -->
 <section class="hero" id="inicio">
     <div class="container">
         <div class="hero-content">
@@ -41,6 +47,9 @@
     </div>
 </section>
 
+<!-- =============================================
+     PORTFOLIO
+     ============================================= -->
 <section id="portfolio">
     <div class="container">
         <div class="section-header">
@@ -48,6 +57,7 @@
             <h2 class="section-title">Mis Trabajos Audiovisuales</h2>
             <p class="section-subtitle">Cada pieza está categorizada según mi rol en la producción.</p>
         </div>
+
         <div class="filter-bar">
             <button class="filter-btn active" data-filter="todos">Todos</button>
             <button class="filter-btn" data-filter="produccion">🎬 Producción Propia</button>
@@ -55,10 +65,16 @@
             <button class="filter-btn" data-filter="locucion">🎤 Locución</button>
             <button class="filter-btn" data-filter="rrss">📱 RRSS</button>
         </div>
-        <div class="video-grid" id="video-grid"></div>
+
+        <div class="video-grid" id="video-grid">
+            <!-- Cards rendered by JS -->
+        </div>
     </div>
 </section>
 
+<!-- =============================================
+     FEATURED PROJECT: La Capital del Arte
+     ============================================= -->
 <section id="proyecto">
     <div class="container">
         <div class="section-header">
@@ -66,6 +82,7 @@
             <h2 class="section-title">La Capital del Arte</h2>
             <p class="section-subtitle">Proyecto transmedia del que soy cámara y montador principal.</p>
         </div>
+
         <div class="featured-project">
             <div class="featured-text">
                 <span class="featured-tag">Transmedia · 2025–2026</span>
@@ -90,6 +107,9 @@
     </div>
 </section>
 
+<!-- =============================================
+     CONTACT
+     ============================================= -->
 <section id="contacto">
     <div class="container">
         <div class="section-header">
@@ -122,12 +142,18 @@
     </div>
 </section>
 
+<!-- =============================================
+     FOOTER
+     ============================================= -->
 <footer class="footer">
     <div class="container">
         <p>© 2026 Juan Javier Bordería Pi — Periodista & Comunicador Audiovisual</p>
     </div>
 </footer>
 
+<!-- =============================================
+     VIDEO MODAL
+     ============================================= -->
 <div class="modal-overlay" id="modal-overlay">
     <button class="modal-close" id="modal-close">✕</button>
     <div class="modal-content" id="modal-content"></div>
