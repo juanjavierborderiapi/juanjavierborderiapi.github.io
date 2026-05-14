@@ -360,35 +360,10 @@ section {
 /* =============================================
    VIDEO GRID
    ============================================= */
-.video-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
-    gap: 24px;
-}
-
-.video-card {
-    background: var(--bg-card);
-    border-radius: var(--radius);
-    overflow: hidden;
-    border: 1px solid var(--border);
-    cursor: pointer;
-    transition: all var(--transition);
-    position: relative;
-}
-
-.video-card:hover {
-    transform: translateY(-5px);
-    border-color: rgba(200, 169, 110, 0.3);
-    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.4);
-    background: var(--bg-card-hover);
-}
-
-.video-thumb {
-    position: relative;
-    aspect-ratio: 16/9;
-    overflow: hidden;
-    background: var(--bg-secondary);
-}
+.video-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); gap: 24px; }
+.video-card { background: var(--bg-card); border-radius: var(--radius); overflow: hidden; border: 1px solid var(--border); cursor: pointer; transition: all var(--transition); position: relative; }
+.video-card:hover { transform: translateY(-5px); border-color: rgba(200, 169, 110, 0.3); box-shadow: 0 15px 40px rgba(0, 0, 0, 0.4); background: var(--bg-card-hover); }
+.video-thumb { position: relative; aspect-ratio: 16/9; overflow: hidden; background: var(--bg-secondary); }
 
 .video-thumb img { width: 100%; height: 100%; object-fit: cover; transition: transform var(--transition); }
 .video-card:hover .video-thumb img { transform: scale(1.05); }
@@ -428,19 +403,19 @@ section {
 }
 
 .video-info {
-    padding: 16px 18px;
+    padding: 18px 20px;
 }
 
 .video-title {
-    font-size: 0.95rem;
+    font-size: 1.05rem;
     font-weight: 600;
     color: var(--text-primary);
-    margin-bottom: 4px;
+    margin-bottom: 6px;
     line-height: 1.3;
 }
 
 .video-role {
-    font-size: 0.78rem;
+    font-size: 0.85rem;
     color: var(--accent);
     font-weight: 500;
     text-transform: uppercase;
