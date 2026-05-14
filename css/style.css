@@ -360,7 +360,7 @@ section {
 /* =============================================
    VIDEO GRID
    ============================================= */
-.video-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); gap: 24px; }
+.video-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); gap: 24px; }
 .video-card { background: var(--bg-card); border-radius: var(--radius); overflow: hidden; border: 1px solid var(--border); cursor: pointer; transition: all var(--transition); position: relative; }
 .video-card:hover { transform: translateY(-5px); border-color: rgba(200, 169, 110, 0.3); box-shadow: 0 15px 40px rgba(0, 0, 0, 0.4); background: var(--bg-card-hover); }
 .video-thumb { position: relative; aspect-ratio: 16/9; overflow: hidden; background: var(--bg-secondary); }
@@ -371,14 +371,9 @@ section {
 .instagram-thumb {
     width: 100%;
     height: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
-    transition: transform var(--transition);
+    display: block;
+    background: var(--bg-secondary);
 }
-.video-card:hover .instagram-thumb { transform: scale(1.05); }
 
 .play-icon {
     position: absolute;

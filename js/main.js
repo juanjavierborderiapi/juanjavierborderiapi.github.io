@@ -31,11 +31,11 @@ const projects = [
 
     // === INSTAGRAM / RRSS ===
     { url: 'https://www.instagram.com/p/DXwwzqcoBd5/', id: 'DXwwzqcoBd5', title: 'Publicación @rc_espana', role: 'Contenido para RRSS', category: 'rrss', platform: 'instagram' },
-    { url: 'https://www.instagram.com/p/DV5lGVZiHgW/?img_index=5', id: 'DV5lGVZiHgW', title: 'Publicación @rc_espana', role: 'Contenido para RRSS', category: 'rrss', platform: 'instagram' },
+    { url: 'https://www.instagram.com/p/DV5lGVZiHgW/', id: 'DV5lGVZiHgW', title: 'Publicación @rc_espana', role: 'Contenido para RRSS', category: 'rrss', platform: 'instagram' },
     { url: 'https://www.instagram.com/p/DWCDF24iN9v/', id: 'DWCDF24iN9v', title: 'Publicación @rc_espana', role: 'Contenido para RRSS', category: 'rrss', platform: 'instagram' },
     { url: 'https://www.instagram.com/p/DWEK4PoCMMD/', id: 'DWEK4PoCMMD', title: 'Publicación @rc_espana', role: 'Contenido para RRSS', category: 'rrss', platform: 'instagram' },
-    { url: 'https://www.instagram.com/p/DVDaXBBCCZM/?img_index=5', id: 'DVDaXBBCCZM', title: 'Publicación @rc_espana', role: 'Contenido para RRSS', category: 'rrss', platform: 'instagram' },
-    { url: 'https://www.instagram.com/p/DU5IPfUiF59/?img_index=3', id: 'DU5IPfUiF59', title: 'Publicación @rc_espana', role: 'Contenido para RRSS', category: 'rrss', platform: 'instagram' },
+    { url: 'https://www.instagram.com/p/DVDaXBBCCZM/', id: 'DVDaXBBCCZM', title: 'Publicación @rc_espana', role: 'Contenido para RRSS', category: 'rrss', platform: 'instagram' },
+    { url: 'https://www.instagram.com/p/DU5IPfUiF59/', id: 'DU5IPfUiF59', title: 'Publicación @rc_espana', role: 'Contenido para RRSS', category: 'rrss', platform: 'instagram' },
     { url: 'https://www.instagram.com/p/DUndxKsCGaF/', id: 'DUndxKsCGaF', title: 'Publicación @rc_espana', role: 'Contenido para RRSS', category: 'rrss', platform: 'instagram' },
     { url: 'https://www.instagram.com/p/DUS9IsmiMfx/', id: 'DUS9IsmiMfx', title: 'Publicación @rc_espana', role: 'Contenido para RRSS', category: 'rrss', platform: 'instagram' },
     { url: 'https://www.instagram.com/p/DRXynKYiEXt/', id: 'DRXynKYiEXt', title: 'Publicación @rc_espana', role: 'Contenido para RRSS', category: 'rrss', platform: 'instagram' }
