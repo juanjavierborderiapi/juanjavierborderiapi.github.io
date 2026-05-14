@@ -1,10 +1,10 @@
 const projects = [
     // === PRODUCCIÓN PROPIA (Grabé + Edité + Produje) ===
     { id: 'ILr6aVEausI', title: 'Producción Audiovisual Completa', role: 'Grabación, edición y producción', category: 'produccion', platform: 'youtube' },
-    { id: 'N5Byr2mOn-g', title: 'Pieza Audiovisual RC', role: 'Grabación, edición y producción', category: 'produccion', platform: 'youtube' },
+
     { id: 'lZiSt-EwxYI', title: 'Vídeo Institucional RC', role: 'Grabación, edición y producción', category: 'produccion', platform: 'youtube' },
     { id: 'D3cMDm1j9wY', title: 'Proyecto Audiovisual Propio', role: 'Creación completa del vídeo', category: 'produccion', platform: 'youtube' },
-    { id: 'mtowqpWHopw', title: 'Proyecto Audiovisual Propio', role: 'Creación completa del vídeo', category: 'produccion', platform: 'youtube' },
+
 
     // === EDICIÓN ===
     { id: 'gxQ6BIMZY9U', title: 'Vídeo Corporativo RC', role: 'Edición y postproducción', category: 'edicion', platform: 'youtube' },
@@ -15,7 +15,7 @@ const projects = [
     { id: '_NbB1N3U9bQ', title: 'Pieza Audiovisual RC', role: 'Edición y postproducción', category: 'edicion', platform: 'youtube' },
     { id: 'bhpokneN90E', title: 'Contenido Digital RC', role: 'Edición y postproducción', category: 'edicion', platform: 'youtube' },
     { id: 'BU3GOcBMoT0', title: 'Vídeo Corporativo RC', role: 'Edición y postproducción', category: 'edicion', platform: 'youtube' },
-    { id: 'NlhGJHQ6JOU', title: 'Pieza Institucional RC', role: 'Edición y postproducción', category: 'edicion', platform: 'youtube' },
+
     { id: '3cz9E_F6Lko', title: 'Vídeo con Locución Propia', role: 'Edición y locución', category: 'edicion', platform: 'youtube' },
 
     // === LOCUCIÓN ===
@@ -107,7 +107,7 @@ function initModal() {
     if (!overlay) return;
 
     document.addEventListener('click', (e) => {
-        const card = e.target.closest('.video-card');
+        const card = e.target.closest('.video-card, .highlight-card');
         if (!card) return;
 
         const id = card.dataset.id;
